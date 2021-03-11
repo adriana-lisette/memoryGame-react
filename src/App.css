@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+h1{
+  color: blueviolet;
+}
+
+.board {
+  margin: 20px;
+  display: grid;
+  grid-template: repeat(4, 1fr)/repeat(8, 1fr);
+  gap: 10px;
+
+}
+
+.card{
+  width: 150px;
+  height: 150px;
+}
+
+.front{
+  background-color: lightpink;
+  width: 150px;
+  height: 150px;
+}
+
+.hidden{
+  background-color: lightgreen;
+  width: 150px;
+  height: 150px;
+}
